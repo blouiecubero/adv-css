@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+    "compile-sass": "node-sass sass/main.scss css/style.css -w "
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "node-sass-chokidar": "0.0.3"
   },
   "dependencies": {
     "jquery": "^3.2.1",
